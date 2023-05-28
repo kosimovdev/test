@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500&family=Poppins:wght@400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Heebo', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: royalblue; */
+}
+
+body header {
+    background: linear-gradient(164.3deg, #E9F6FF 5.42%, rgba(255, 255, 255, 0) 21.05%);
+}
